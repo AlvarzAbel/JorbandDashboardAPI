@@ -1,0 +1,163 @@
+
+
+.profile-picture-container {
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.picture {
+    text-align: center;
+    width: 50%;
+    height: 30vh;
+    position: relative;
+}
+
+.picture .img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.chooseBtn {
+    cursor: pointer;
+    border-radius: 30px;
+    height: 40px;
+    background-color: #ccc;
+    border-color: #fff;
+    justify-content: center;
+    width: 30px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 18%;
+    margin-bottom: 15%;
+
+}
+
+.user-name {
+    margin-top: 1%;
+    z-index: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.user-information {
+    padding: 0px 20%;
+    background-color: #fff;
+    border-radius: 5px;
+    align-items: center;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.user-information form {
+    width: 70%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user-information form .btn {
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.section-1 {
+    display: flex;
+}
+
+.user-information .form-field {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 1% 1%;
+}
+
+.user-information .form-field input {
+    margin-top: 1%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    min-width: 80%;
+}
+
+@media screen and (max-width: 1090px) {
+    .user-information form {
+        width: 90%;
+    }
+    .user-information .form-field {
+        width: 30rem;
+    }
+}
+@media screen and (max-width: 591px) {
+
+ .profile-picture-container {
+        display: block;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-top: 1%;
+    }
+
+    .picture {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .picture .img {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .chooseBtn {
+        bottom: 0;
+        margin: 0;
+        margin-bottom: -5%;
+        margin-right: 5%;
+    }
+
+    .user-information {
+        background-color: #fff;
+        align-items: center;
+    }
+
+    .user-information form {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+
+    }
+
+    .section-1 {
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .user-name {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: -2%;
+        display: none;
+    }
+
+    .user-information .form-field {
+        width: 90%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+
+    .btn {
+        margin: 0;
+        padding: 0;
+        background-color: red;
+    }
+}

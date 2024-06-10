@@ -1,0 +1,141 @@
+
+
+/* .cards-container{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: wrap;
+    flex-flow: row;
+    background-color: #0d6efd;
+} */
+.finances-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: .5rem;
+    width: 18rem;
+    height: 8rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card-content {
+    width: 50%;
+    text-align: center;
+}
+
+.card-content h2 {
+    color: red;
+}
+
+.card-content h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icon-container {
+    width: 50%;
+    text-align: center;
+
+}
+
+.icon-container i {
+    color: #fff;
+}
+
+.icon-container i,
+.icon-container h2 {
+    padding: 5%;
+}
+
+
+.background-green {
+    background-color: #78d68e;
+}
+
+.text-green {
+    color: #35b653 !important;
+}
+
+.background-blue {
+    background-color: #7ea6e3;
+}
+
+.text-blue {
+    color: #0d6efd !important;
+}
+
+.background-red {
+    background-color: rgb(233, 89, 89);
+}
+
+.scroll-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.scroll-style{
+    width: 60%;
+    border-radius: 10px;
+    padding: 0% 3%;
+    margin-bottom: 10%;
+    height: 30rem;
+    background-color: #fff;
+
+}
+.timeline-content{
+    width: 65rem;
+    margin-top: -1rem;
+    margin-bottom: 5%;
+}
+
+.timeline-content h3{
+    font-size: 14px;
+}
+.timeline-content p{
+    margin: 0;
+}
+
+@media screen and (max-width: 591px) {
+    
+    .container {
+        margin: 1%;
+        width: 20rem;
+        height: 8rem;
+    }
+    .scroll-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .scroll-style{
+        width: 20rem;
+        border-radius: 10px;
+        padding: 3%;
+        background-color: #fff;
+        margin-bottom: 10%;
+        height: 30rem;
+    }
+    .timeline-content{
+        width: 65vw;
+        margin-bottom: 5%;
+    }
+    .timeline-content p{
+        width: 15rem;
+    }
+    .timeline-content h3{
+        font-size: 14px;
+    }
+    .timeline-content p{
+        margin: 0;
+    }
+}

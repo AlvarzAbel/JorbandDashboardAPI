@@ -1,0 +1,9 @@
+.page-content{
+    width: 40rem;
+}
+
+@media screen and (max-width: 791px) {
+    .page-content{
+        width: 100%;
+    }
+}
